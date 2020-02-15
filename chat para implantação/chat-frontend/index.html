@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat</title>
+  <meta charset="utf-8"/>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link type="text/css" rel= "stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div id="container">
+    <main class="chat">
+      <table>
+        <tr>
+         <td class="menu align-top">
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand itemmenu" href="index.html"><!-- informações do seu perfil -->
+              <span  id="nomeuser"> <img class="d-inline-block align-top" width="30" height="30" src="https://cdn.pixabay.com/photo/2017/12/16/06/41/avatar-3022215__340.jpg"/>Vinicius</span>
+
+            </a>
+
+          </nav>
+
+          <dl class="amigos" id='usuarios'>
+            <dt><!-- lista de usuários cadastrados -->
+              <button class="btn btn-light container-fluid text-left">
+                <img class="d-inline-block align-top" width="30" height="30" src="https://cdn.pixabay.com/photo/2013/07/13/12/07/avatar-159236__340.png"/>Jonas
+              </button>
+            </dt>
+            <dt>
+              <button class="btn btn-light container-fluid text-left">
+                <img class="d-inline-block align-top" width="30" height="30" src="https://cdn.pixabay.com/photo/2013/07/13/12/07/avatar-159236__340.png"/>Maria
+              </button>
+            </dt>
+            <dt>
+              <button class="btn btn-light container-fluid text-left">
+                <img class="d-inline-block align-top" width="30" height="30" src="https://cdn.pixabay.com/photo/2013/07/13/12/07/avatar-159236__340.png"/>Thomas
+              </button>
+            </dt>
+            <dt>
+              <button class="btn btn-light container-fluid text-left">
+                <img class="d-inline-block align-top" width="30" height="30" src="https://cdn.pixabay.com/photo/2013/07/13/12/07/avatar-159236__340.png"/>Edson
+              </button>
+            </dt>
+            <br/>
+            
+
+          </td>
+          
+          <td class="align-bottom conversas">
+            <nav class="navbar navbar-light bg-light">
+              <a class="navbar-brand itemmenu"  href="index.html">
+                <span  id="nomeamigo"><img class="d-inline-block align-top" width="30" height="30" src="https://cdn.pixabay.com/photo/2014/04/03/10/32/businessman-310819__340.png"/>Mário</span>
+                
+              </a>
+              
+            </nav>
+            <ul id="messages" class="">
+              <!-- Mensagens adicionadas pelo socket. -->
+            </ul>
+            <form>
+              <div class="chat-input ">
+                <!-- caixa de texto e o submit -->
+                <textarea class="form-control form-control-lg"  id="message" type="text" required placeholder="Mensagem"></textarea>
+                <button id="send" type="submit" class="btn btn-primary mb-2">Enviar</button>
+              </div>
+            </form>
+          </td>
+        </tr>
+      </table>
+
+    </main>
+
+
+  </div>
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
