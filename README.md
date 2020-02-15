@@ -7,7 +7,7 @@
 
 Esse projeto localiza os desenvolvedor que estão perto de você, tendo a opção de perquisar por tecnologias especificas e também acessar o GitHub da pessoa
 
-![](./static/site.png)
+![](./static/site.gif)
 
 ## Instalação
 Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
