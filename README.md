@@ -24,4 +24,17 @@ execute o comando na pasta chat-backend
 ```bash
 yarn install
 ```
+
+## Como usar
+
 ![](./static/site.gif)
+
+**chat demonstração:**
+Basta criar uma conta e fazer o login, após isso basta clicar em um dos usuários do chat e iniciar o bate-papo
+
+**chat para implantação:**
+Quando você iniciar a aplicação, será levado um chat coletivo, onde tu que enviar, as demais pessoas que estiverem utilizando o chat receberá a mensagem
+
+## Licença
+
+[MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
