@@ -25,6 +25,8 @@ execute o comando na pasta chat-backend
 yarn install
 ```
 
+após 
+
 ## Como usar
 
 ![](./static/site.gif)
