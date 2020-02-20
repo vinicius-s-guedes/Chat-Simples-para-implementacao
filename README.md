@@ -1,5 +1,5 @@
- # Vou arrumar o Readme para a explicação até terça-feira(19/02/2020)
-> O código está funcional e todo comentado
+ # Chat Simples para fácil implatação
+> Foi utilizado node.js, MySQL, e a biblioteca axios
 
 
 <p align="center">
@@ -14,9 +14,9 @@
   </a>
 </p>
 
-a versão  **chat demonstração** é a demostrada no gif e está mais completa. Já vem com o banco de dados(cha demonstração\chat-backend\src\database.sql)
+a versão  **chat demonstração** é a demostrada no gif e está mais completa. Já vem com o banco de dados(chat demonstração\chat-backend\src\database.sql), mas ela foi criada só para demonstração e para ter ideia de como usar o banco de dados na aplicação, tendo possibilidade de criar usuários, logar em sua conta e mandar mensagens privadas
 
-a versão **chat para implantação** contem código mais básico, para voce poder editar com mais facilidade e adicionar seu banco de dado
+a versão **chat para implantação** contem código mais básico, para voce poder editar com mais facilidade e adicionar seu banco de dado, o código está todo comentado para facilitar ainda mais o uso
 
 ## Instalação
 execute o comando na pasta chat-backend
@@ -24,8 +24,7 @@ execute o comando na pasta chat-backend
 ```bash
 yarn install
 ```
-
-após 
+**caso usar o char demonstração** rode o banco de dados(chat demonstração\chat-backend\src\database.sql) e configure ele em database.js
 
 ## Como usar
 
@@ -36,7 +35,3 @@ Basta criar uma conta e fazer o login, após isso basta clicar em um dos usuári
 
 **chat para implantação:**
 Quando você iniciar a aplicação, será levado um chat coletivo, onde tu que enviar, as demais pessoas que estiverem utilizando o chat receberá a mensagem
-
-## Licença
-
-[MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
