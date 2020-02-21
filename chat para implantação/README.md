@@ -9,7 +9,7 @@ yarn install
 ```
 
 ## Coversar
-![](./static/conversa.PNG)
+![](./static/mensagem.PNG)
 
 Para mandar mensagem é só escrever, e nisso será mandado a mensagem para todos os usuários que estão na mesma página
 
