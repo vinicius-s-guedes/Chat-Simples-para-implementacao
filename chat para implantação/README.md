@@ -8,6 +8,12 @@ Para instalar utilize os comandos:
 yarn install
 ```
 
+## inicie o backend**
+use o comando 
+```bash
+yarn nodemon src/index.js
+```
+
 ## Coversar
 ![](./static/mensagem.PNG)
 
