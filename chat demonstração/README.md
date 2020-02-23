@@ -9,7 +9,7 @@ yarn install
 ```
 e após a instalação crie o banco de dados, o sql está localizado em .\chat-backend\database.sql
 
-## inicie o backend**
+## inicie o backend
 use o comando 
 ```bash
 yarn nodemon src/index.js
