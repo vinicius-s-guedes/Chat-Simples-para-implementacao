@@ -30,6 +30,9 @@ yarn install
 
 ![](./static/site.gif)
 
+**rode o backend**
+use o comando yarn nodemon src/index.js
+
 **chat demonstração:**
 Basta criar uma conta e fazer o login, após isso basta clicar em um dos usuários do chat e iniciar o bate-papo
 
