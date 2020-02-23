@@ -30,8 +30,8 @@ yarn install
 
 ![](./static/site.gif)
 
-## inicie o backend**
-use o comando 
+## inicie o backend
+use o comando na pasta do backend
 ```bash
 yarn nodemon src/index.js
 ```
