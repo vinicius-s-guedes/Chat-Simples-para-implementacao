@@ -14,9 +14,10 @@
   </a>
 </p>
 
-a versão  **chat demonstração** é a demostrada no gif e está mais completa. Já vem com o banco de dados(chat demonstração\chat-backend\src\database.sql), mas ela foi criada só para demonstração e para ter ideia de como usar o banco de dados na aplicação, tendo possibilidade de criar usuários, logar em sua conta e mandar mensagens privadas
+a versão **chat para implantação** contem código mais básico, para voce poder modelar com mais facilidade seu código e adicionar seu banco de dado, o código está todo comentado para facilitar ainda mais o uso.
 
-a versão **chat para implantação** contem código mais básico, para voce poder editar com mais facilidade e adicionar seu banco de dado, o código está todo comentado para facilitar ainda mais o uso
+a versão  **chat demonstração** é a demostrada no gif. Já vem com o banco de dados(chat demonstração\chat-backend\src\database.sql), mas ela foi criada só para demonstração e para ter ideia de como usar o banco de dados na aplicação, tendo possibilidade de criar usuários, logar em sua conta e mandar mensagens privadas.
+
 
 ## Instalação
 execute o comando na pasta chat-backend
