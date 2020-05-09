@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "chat-mobile",
     "slug": "mobile",
     "platforms": [
       "ios",
