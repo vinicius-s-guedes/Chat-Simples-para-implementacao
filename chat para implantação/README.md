@@ -26,7 +26,7 @@ web:
 ![](./static/mensagem.PNG)
 
 mobile:
-![](./static/monile.gif)
+![](./static/mobile.gif)
 
 Para mandar mensagem é só escrever, e nisso será mandado a mensagem para todos os usuários que estão na mesma página
 
