@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react';
 import { YellowBox,StyleSheet,  ScrollView, Text, View,FlatList, TextInput,TouchableOpacity} from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
-const ws = new WebSocket('ws://192.168.15.3:8888');
+const ws = new WebSocket('ws://192.168.15.6:8888');
 
 export default function App() {
   YellowBox.ignoreWarnings([

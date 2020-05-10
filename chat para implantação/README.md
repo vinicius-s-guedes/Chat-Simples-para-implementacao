@@ -3,7 +3,7 @@
 >Essa versão está toda comentada e está com pouco código para fácil uso para editar do seu jeito e adicionar o seu banco de dados(está tudo comentado como adicionar o banco de dados) e fácil implatanação no seu projeto.
 
 ## Instalação
-Para instalar utilize os comandos:
+Para instalar utilize o comando abaixo na pasta ./chat-backend:
 ```bash
 yarn install
 ```
@@ -11,11 +11,22 @@ yarn install
 ## inicie o backend**
 use o comando 
 ```bash
-yarn nodemon src/index.js
+yarn nodemon src
 ```
 
-## Coversar
+## inicie o mobile**
+use o comando 
+```bash
+yarn start
+```
+
+## Como usar
+
+web:
 ![](./static/mensagem.PNG)
+
+mobile:
+![](./static/monile.gif)
 
 Para mandar mensagem é só escrever, e nisso será mandado a mensagem para todos os usuários que estão na mesma página
 
